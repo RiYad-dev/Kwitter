@@ -35,7 +35,7 @@ function send() {
 function logout() {
     localStorage.removeItem("User_Name");
     localStorage.removeItem("room_name");
-    window.location.replace("kwitter.html");
+    window.location.replace("kwitter_room.html");
 }
 
 function getData() {
